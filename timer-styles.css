@@ -1,0 +1,61 @@
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: green;
+    font-size: 5em;
+}
+
+.timer-display {
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+.timer-display span {
+    color: yellow;
+    font-size: 6em;
+}
+
+.timer-display span:nth-child(2) {
+    color: orange;
+    font-size: 6em;
+
+}
+
+.timer-display span:nth-child(3) {
+    color: red;
+    font-size: 6em;
+}
+
+.colon {
+    font-size: 6px;
+    color: white;
+}
+
+button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#stop-alarm {
+    background-color: green;
+    display: block;
+    margin: 20px auto;
+}

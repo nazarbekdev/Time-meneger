@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: red;
+    font-size: 2em;
+}
+
+p {
+    color: yellow;
+    font-size: 1.5em;
+}
+
+.timer-display {
+    font-size: 2.5em;
+    margin: 20px 0;
+}
+
+.icons {
+    margin: 20px 0;
+
+}
+
+button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button img {
+    width: 20px;
+    height: 20px;
+}
